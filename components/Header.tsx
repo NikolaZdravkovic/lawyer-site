@@ -2,6 +2,13 @@
 import Navigation from './Navigation'
 import Image from 'next/image';
 import heroImg from '../public/images/banner.png'
+import { Outfit } from 'next/font/google'
+import { Cormorant_Garamond } from 'next/font/google'
+
+const outfit = Outfit({ subsets: ['latin'] })
+const garamond = Cormorant_Garamond({subsets:['latin'],weight:['400']});
+
+
 
 
 export default function Header() {
@@ -19,10 +26,10 @@ export default function Header() {
           />
           <Navigation />
           <div className='banner-text relative flex text-white wrapper md:pr-96 pl-4 pt-24 pr-24 md:pt-7 flex-wrap'>
-            <div className='banner-text--title md:text-6xl text-3xl pb-7 font-body'>
+            <div className={`${garamond.className} banner-text--title md:text-6xl text-3xl pb-7`}>
               Deeper understanding better solution
             </div>
-            <div className='banner-text--desc md:text-2xl pb-7 font-secondary'>
+            <div className={`${outfit.className} banner-text--desc md:text-2xl pb-7`}>
               It is a long established fact that a reader will be distracted by
               the readable content of a looking at its layout.
             </div>
