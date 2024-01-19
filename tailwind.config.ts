@@ -15,8 +15,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'body': ['"Cormorant Garamond"', ...defaultTheme.fontFamily.sans],
-        'secondary': ['"Outfit"', ...defaultTheme.fontFamily.sans],
+        'body': ['"Cormorant Garamond"', 'sans-serif'],
+        'secondary': ['"Outfit"', 'sans-serif'],
       },
     },
   },
