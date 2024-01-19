@@ -2,12 +2,8 @@
 import Navigation from './Navigation'
 import Image from 'next/image';
 import heroImg from '../public/images/banner.png'
-import { Outfit } from 'next/font/google'
-import { Cormorant_Garamond } from 'next/font/google'
-
-const outfit = Outfit({ subsets: ['latin'] })
-const garamond = Cormorant_Garamond({subsets:['latin'],weight:['400']});
-
+import { outfit, garamond } from '../styles/fonts';
+import Button from './Button';
 
 
 
@@ -19,10 +15,10 @@ export default function Header() {
         <div className='banner-image relative md:h-[900px]'>
           <Image
             fill
-            style={{objectFit:"cover"}}
+            style={{ objectFit: "cover" }}
             src={`${heroImg.src}`}
             alt="image"
-            loading="eager" priority={true} 
+            loading="eager" priority={true}
           />
           <Navigation />
           <div className='banner-text relative flex text-white wrapper md:pr-96 pl-4 pt-24 pr-24 md:pt-7 flex-wrap'>
@@ -35,12 +31,12 @@ export default function Header() {
             </div>
             <div className='banner-text--btn'>
               <div className="py-1 text-right flex">
-                <a
-                  className="mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-black bg-[#D1B06B] font-secondary"
-                  href="/"
-                >
-                  Pozovite nas
-                </a>
+                <Button
+                  title='Pozovite nas'
+                  btnType='button'
+                  containerStyles={`${outfit.className} mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-black bg-[#D1B06B]`}
+                  textStyles='text-black'
+                />
               </div>
             </div>
           </div>
