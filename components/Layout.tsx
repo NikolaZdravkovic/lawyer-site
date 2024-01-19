@@ -10,12 +10,12 @@ export default function Main() {
         <section className="w-full text-black pt-20">
           <div className="wrapper max-w-8xl mx-auto inline-block items-center p-3 pt-0 lg:flex lg:flex-wrap lg:pt-4 pb-10 text-white w-full">
             <div className="flex md:flex-nowrap flex-wrap pb-20 text-white">
-              <h2 className="max-w-xl lg:text-[4.2em] text-3xl font-bold leading-none inline-block">
+              <h2 className="max-w-xl lg:text-[3em] text-3xl font-bold leading-none inline-block font-body pr-10">
                 Vel quis feugiat pharetra diam.
               </h2>
               <div className="md:h-[130px] border-solid border-x-2	"></div>
 
-              <p className="mt-6 max-w-2xl text-xl font-semibold md:ml-20">
+              <p className="mt-6 max-w-2xl text-xl font-semibold md:ml-20 font-secondary">
                 Lorem ipsum urna, consectetur adipiscing elit. Urna risuw-full text-blacks
                 hendrerit dignissim duis fringilla sit. Lacus porttitor neque
                 ipsum.

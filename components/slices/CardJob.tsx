@@ -6,8 +6,8 @@ export default function CardJob() {
             <div className='flex flex-wrap justify-center'>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0'>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>
@@ -29,8 +29,8 @@ export default function CardJob() {
                 </div>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0'>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>
@@ -52,8 +52,8 @@ export default function CardJob() {
                 </div>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0'>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>
@@ -75,8 +75,8 @@ export default function CardJob() {
                 </div>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0 '>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>
@@ -98,8 +98,8 @@ export default function CardJob() {
                 </div>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0'>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>
@@ -121,8 +121,8 @@ export default function CardJob() {
                 </div>
                 <div className='card mb-6 md:mr-6 md:w-[340px] lg:w-[420px] bg-[#1F2732] pb-10'>
                     <div className='flex flex-wrap w-[320px] md:pl-12 pb-10 pt-12 pl-10 pr-5 md:pr-0'>
-                        <div className='font-bold md:text-4xl pb-3 text-3xl'>Business Law</div>
-                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10'>There are many variations of passages
+                        <div className='font-bold md:text-4xl pb-3 text-3xl font-body'>Business Law</div>
+                        <div className='md:text-xl border-solid border-b-2 md:pb-12 pb-10 font-secondary'>There are many variations of passages
                             of Lorem Ipsum available, but majority
                             going to use a passage.</div>
                     </div>

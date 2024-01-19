@@ -8,19 +8,12 @@ export default function Navigation() {
 
     const [burger, setBurger] = useState<boolean>(false);
     const [menu, setMenu] = useState<ElementArray>(null);
-    const [close, setClose] = useState<ElementArray>(null);
-    const [backdrop, setBackdrop] = useState<ElementArray>(null);
   
     useEffect(() => {
-      const burgerElements = document.querySelectorAll('.navbar-burger');
       const menuElements = document.querySelectorAll('.navbar-menu');
-      const closeElements = document.querySelectorAll('.navbar-close');
-      const backdropElements = document.querySelectorAll('.navbar-backdrop');
-  
+
       setBurger(false); // Set burger to false initially
       setMenu(menuElements);
-      setClose(closeElements);
-      setBackdrop(backdropElements);
     }, []); // This effect runs once after the initial render
   
     const openBurger = () => {
@@ -50,7 +43,7 @@ export default function Navigation() {
           </a>
           <div className="hidden py-1 text-right md:inline-block">
             <a
-              className="mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white color bg-transparent bg-opacity-25	border-solid border-2 border-white-500"
+              className="mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white color bg-transparent bg-opacity-25	border-solid border-2 border-white-500 font-secondary"
               href="/"
             >
               Pozovite nas
@@ -59,16 +52,16 @@ export default function Navigation() {
         </div>
         <div className="nav-links mt-4 inline-block pb-4 pl-8">
           <div className="hidden align-middle md:inline-block text-white">
-            <a href="/" className="pr-12 text-xl ">
+            <a href="/" className="pr-12 text-xl font-secondary ">
               Cras.
             </a>
-            <a href="/" className="pr-12 text-xl ">
+            <a href="/" className="pr-12 text-xl font-secondary ">
               Cras.
             </a>
-            <a href="/" className="pr-12 text-xl ">
+            <a href="/" className="pr-12 text-xl font-secondary">
               Fringilla.
             </a>
-            <a href="/" className="text-xl ">
+            <a href="/" className="text-xl font-secondary">
               Enim.
             </a>
           </div>
